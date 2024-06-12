@@ -1,0 +1,28 @@
+.if {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.if-cols-span-2{
+    grid-column: span 2;
+}
+
+.if-cols-span-3{
+    grid-column: span 3;
+    
+}
+
+.if-cols-span-6{
+    grid-column: span 6;
+}
+
+.if p {
+    margin-bottom: 10px;
+}
+
+.if-button {
+    margin-top: 20px;
+    float: right;
+}

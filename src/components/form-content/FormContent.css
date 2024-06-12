@@ -1,0 +1,41 @@
+.form-content{
+    padding: 15px;
+}
+
+.info {
+    display: inline-block;
+    text-align: left;
+    max-width: 50vw;
+}
+
+.form-content-title {
+    color: #444;
+}
+
+.form-content hr{
+    border: none;
+    border-top: 1px solid rgb(228, 225, 225);
+}
+
+.form {
+    border-left: 1px solid rgb(228, 225, 225);
+    padding: 25px 15px 25px 25px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0,1fr));
+}
+
+.fc-div {
+    text-align: center;
+}
+
+.form-title {
+    display: inline-block;
+    transform: translateY(-7px);
+}
+
+.fc-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}

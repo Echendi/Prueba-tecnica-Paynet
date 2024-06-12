@@ -1,0 +1,36 @@
+.header {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.header-img {
+    width: 150px;
+    margin-left: 15px;
+}
+
+.header-group-icons{
+    float: right;
+    margin-right: 15px;
+    color: #444;
+}
+
+.header-group-icons span{
+    font-size: smaller;
+}
+
+.header-account-icon, .header-notification-icon{
+    color: #444;
+}
+
+.header-account-icon{
+    font-size: 35px;
+}
+
+.header-notification-icon{
+    margin-right: 10px;
+}
+
+

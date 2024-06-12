@@ -1,0 +1,17 @@
+.form-check {
+    color: #145ea8;
+    transform: translateX(-11px);
+}
+
+.fh-title {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #145ea8;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 100%;
+    color: white;
+    transform: translateX(-11px);
+    margin: 0;
+}

@@ -1,0 +1,62 @@
+.sf {
+    margin-top: 8px;
+    border-left: 1px solid rgb(228, 225, 225);
+}
+
+.sf-content{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.sf-client-info {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 30px;
+    padding-left: 10px;
+}
+
+.sf-card-title {
+    background: rgb(245, 244, 244);
+    border-bottom: 1px solid rgb(228, 225, 225);
+}
+
+.sf-card-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(228, 225, 225) ;
+}
+
+.sf-card-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 20px 16px
+}
+
+.sf-info-values {
+    text-align: right;
+}
+
+.sf-info-keys {
+    color: gray;
+}
+
+.MuiCardHeader-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sf-total {
+    color: gray;
+    font-weight: bold;
+}
+
+.sf-total-value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sf-button {
+    width: fit-content;
+}

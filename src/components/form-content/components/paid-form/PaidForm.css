@@ -1,0 +1,8 @@
+.paid-form {
+  margin-top: 30px;
+}
+.radio-group {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+  }
